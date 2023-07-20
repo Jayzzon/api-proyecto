@@ -1,5 +1,7 @@
 import Producto from "./productos";
+import Perfil from "./perfil";
 
 export default{
-    Producto
+    Producto,
+    Perfil
 }

@@ -9,5 +9,6 @@ router.get("/consultarProducto",productosController.consultarProducto);
 router.delete("/eliminarProducto/:id",productosController.eliminarProducto);
 router.patch("/updateProducto/:id",productosController.updateProducto);
 router.get("/oneProducto/:id",productosController.consultarOneProduct);
+router.post('/login',productosController.aggPerfil);
 
 export default router;
